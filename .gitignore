@@ -1,3 +1,2 @@
-/_qmk_keymap.json
-/_qmk_keymap2.json
+/_qmk_keymap*.json
 /.DS_Store
