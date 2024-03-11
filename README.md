@@ -3,6 +3,7 @@ This is the custom [qmk](https://docs.qmk.fm/) keymap for my [Corne](https://git
 
 ## Features
 - Custom layout I use for my day-job writing code.
+- Autoshift enabled for every key.
 - Left half OLED animations with my `JM` logo, layer and modifier key indicators.
 - Right half OLED animations featuring BONGOCAT!
 - Enables `ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS` and `ENABLE_RGB_MATRIX_RAINBOW_BEACON` matrix animations by default. The only ones I like.
