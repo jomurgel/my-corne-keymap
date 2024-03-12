@@ -16,3 +16,6 @@ AUTO_SHIFT_ENABLE = yes
 
 # Disable mousekey
 MOUSEKEY_ENABLE = no
+
+# Enable Tap Dance
+TAP_DANCE_ENABLE = yes

@@ -27,6 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_LED_STATE_ENABLE
 #define SPLIT_LAYER_STATE_ENABLE
 
+#define TAPPING_TERM 200
+
 #define OLED_FONT_H "./oled/oledfont.c"
 
 #ifdef RGBLIGHT_ENABLE
@@ -48,7 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifdef RGB_MATRIX_ENABLE
 #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
-#   define RGB_MATRIX_SLEEP // turn off effects when suspended
+// #   define RGB_MATRIX_SLEEP // turn off effects when suspended
 #   define RGB_MATRIX_MAXIMUM_BRIGHTNESS 170 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
 // #   define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
@@ -76,7 +78,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
 // #    define ENABLE_RGB_MATRIX_CYCLE_SPIRAL
 // #    define ENABLE_RGB_MATRIX_DUAL_BEACON
-#    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
+// #    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
 // #    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 // #    define ENABLE_RGB_MATRIX_RAINDROPS
 // #    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
