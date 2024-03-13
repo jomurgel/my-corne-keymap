@@ -10,7 +10,6 @@ This is the custom [qmk](https://docs.qmk.fm/) keymap for my [Corne](https://git
   - Solid is of course there by default.
 - Tapdance Enabled:
   - Capslock is on layer 2, but also double-tap the esc key on layer 1.
-  - Double-tap G calls Alt + Space.
 
 ## Usage
 ```bash
