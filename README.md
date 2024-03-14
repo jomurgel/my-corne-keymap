@@ -1,4 +1,4 @@
-# My Custom Corne Keymap
+# My Custom Corne Keymap v5
 This is the custom [qmk](https://docs.qmk.fm/) keymap for my [Corne](https://github.com/foostan/crkbd) keyboard.
 
 ## Features
