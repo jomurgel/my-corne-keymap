@@ -10,6 +10,7 @@ This is the custom [qmk](https://docs.qmk.fm/) keymap for my [Corne](https://git
   - Solid is of course there by default.
 - Tapdance Enabled:
   - Capslock is on layer 2, but also double-tap the esc key on layer 1.
+- Enables VIA for ease of switching keys on the fly. Lighting doesn't work for crkbd/rev1 with VIA but keys do.
 
 ## Usage
 ```bash

@@ -24,7 +24,7 @@ WPM_ENABLE = no
 SRC += ./oled/oled-bongocat.c ./oled/oled-icons.c
 
 # Enable autoshift
-AUTO_SHIFT_ENABLE = no
+AUTO_SHIFT_ENABLE = yes
 
 # Disable mousekey
 MOUSEKEY_ENABLE = no
