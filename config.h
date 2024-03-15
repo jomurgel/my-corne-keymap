@@ -23,6 +23,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_LEFT
 #define MASTER_RIGHT
 
+#ifndef NO_DEBUG
+    #define NO_DEBUG
+    #endif // !NO_DEBUG
+    #if !defined(NO_PRINT) && !defined(CONSOLE_ENABLE)
+    #define NO_PRINT
+#endif // !NO_PRINT
+
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
+
 #define SPLIT_MODS_ENABLE
 #define SPLIT_LED_STATE_ENABLE
 #define SPLIT_LAYER_STATE_ENABLE
@@ -72,7 +82,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_CYCLE_ALL
 // #    define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
 // #    define ENABLE_RGB_MATRIX_CYCLE_UP_DOWN
-// #    define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#    define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
 // #    define ENABLE_RGB_MATRIX_CYCLE_OUT_IN
 // #    define ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL
 // #    define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
@@ -89,7 +99,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_PIXEL_FLOW
 // #    define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
 // enabled only if RGB_MATRIX_FRAMEBUFFER_EFFECTS is defined
-// #    define ENABLE_RGB_MATRIX_TYPING_HEATMAP
+#    define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 // #    define ENABLE_RGB_MATRIX_DIGITAL_RAIN
 // enabled only of RGB_MATRIX_KEYPRESSES or RGB_MATRIX_KEYRELEASES is defined
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
@@ -101,7 +111,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
 // #    define ENABLE_RGB_MATRIX_SPLASH
-// #    define ENABLE_RGB_MATRIX_MULTISPLASH
+#    define ENABLE_RGB_MATRIX_MULTISPLASH
 // #    define ENABLE_RGB_MATRIX_SOLID_SPLASH
 // #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 #endif

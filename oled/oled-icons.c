@@ -31,27 +31,27 @@ static void render_logo(void) {
 }
 
 static void render_layer_state(uint8_t const state) {
-	static char const base_layer[] PROGMEM = {
+	static char const f_layer[] PROGMEM = {
 		0x20, 0x9a, 0x9b, 0x9c, 0x20,
 		0x20, 0xba, 0xbb, 0xbc, 0x20,
 		0x20, 0xda, 0xdb, 0xdc, 0x20, 0};
-	static char const numb_layer[] PROGMEM = {
+	static char const base_layer[] PROGMEM = {
 		0x20, 0x94, 0x95, 0x96, 0x20,
 		0x20, 0xb4, 0xb5, 0xb6, 0x20,
 		0x20, 0xd4, 0xd5, 0xd6, 0x20, 0};
-	static char const symb_layer[] PROGMEM = {
+	static char const numb_layer[] PROGMEM = {
 		0x20, 0x97, 0x98, 0x99, 0x20,
 		0x20, 0xb7, 0xb8, 0xb9, 0x20,
 		0x20, 0xd7, 0xd8, 0xd9, 0x20, 0};
-	static char const func_layer[] PROGMEM = {
+	static char const settings_layer[] PROGMEM = {
 		0x20, 0x9d, 0x9e, 0x9f, 0x20,
 		0x20, 0xbd, 0xbe, 0xbf, 0x20,
 		0x20, 0xdd, 0xde, 0xdf, 0x20, 0};
 
 	switch(state) {
 		case 1:  oled_write_P(numb_layer, false); break;
-		case 2:  oled_write_P(symb_layer, false); break;
-		case 3:  oled_write_P(func_layer, false); break;
+		case 2:  oled_write_P(f_layer, false); break;
+		case 3:  oled_write_P(settings_layer, false); break;
 		default: oled_write_P(base_layer, false);
 	}
 }
