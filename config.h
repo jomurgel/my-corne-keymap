@@ -30,12 +30,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define NO_PRINT
 #endif // !NO_PRINT
 
-#define NO_ACTION_MACRO
+// #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
+
+#define NO_MUSIC_MODE
+#define NO_ACTION_ONESHOT
 
 #define SPLIT_MODS_ENABLE
 #define SPLIT_LED_STATE_ENABLE
 #define SPLIT_LAYER_STATE_ENABLE
+
+#define LAYER_STATE_8BIT
 
 #define TAPPING_TERM 200
 
@@ -87,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_CYCLE_OUT_IN_DUAL
 // #    define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
 // #    define ENABLE_RGB_MATRIX_CYCLE_SPIRAL
-// #    define ENABLE_RGB_MATRIX_DUAL_BEACON
+#    define ENABLE_RGB_MATRIX_DUAL_BEACON
 // #    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
 // #    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 // #    define ENABLE_RGB_MATRIX_RAINDROPS
@@ -110,7 +115,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTICROSS
 #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
-// #    define ENABLE_RGB_MATRIX_SPLASH
+#    define ENABLE_RGB_MATRIX_SPLASH
 // #    define ENABLE_RGB_MATRIX_MULTISPLASH
 // #    define ENABLE_RGB_MATRIX_SOLID_SPLASH
 // #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH

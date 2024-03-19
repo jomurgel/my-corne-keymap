@@ -3,14 +3,14 @@ This is the custom [qmk](https://docs.qmk.fm/) keymap for my [Corne](https://git
 
 ## Features
 - Custom layout I use for my day-job writing code.
-- Autoshift enabled for every key.
 - Left half OLED animations with my `JM` logo, layer and modifier key indicators.
 - Right half OLED animations featuring BONGOCAT!
 - Enables `ENABLE_RGB_MATRIX_SOLID_REACTIVE_NEXUS` matrix animation by default. The only one I like.
   - Solid is of course there by default.
-- Tapdance Enabled:
-  - Capslock is on layer 2, but also double-tap the esc key on layer 1.
-- Enables VIA for ease of switching keys on the fly. Lighting doesn't work for crkbd/rev1 with VIA but keys do.
+- Tapdance enabled for several keys to make things like copy, paste, and commonly used CMD + KC options quick on Layer 1.
+- Tap-hold enabled for several keys to make those same tapdance commands include the Shift (so CMD + Shift + KC).
+- Tap-hold the Left Control or Right OS key (left and right thumb respectively) to be HYPR or MEH respectively.
+- Tap-hold left Space for extra OS CMD button.
 
 ## Usage
 ```bash
