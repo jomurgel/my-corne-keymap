@@ -37,7 +37,6 @@ enum {
   TD_P = 14,
   TD_E = 15,
   TD_F = 16,
-  TD_T = 17,
 };
 
 // Tap Dance Definitions
@@ -60,7 +59,6 @@ tap_dance_action_t tap_dance_actions[] = {
   [TD_P] = ACTION_TAP_DANCE_DOUBLE(KC_P, LGUI(KC_P)),
   [TD_E] = ACTION_TAP_DANCE_DOUBLE(KC_E, LGUI(KC_E)),
   [TD_F] = ACTION_TAP_DANCE_DOUBLE(KC_F, LGUI(KC_F)),
-  [TD_T] = ACTION_TAP_DANCE_DOUBLE(KC_T, LGUI(KC_T)),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {

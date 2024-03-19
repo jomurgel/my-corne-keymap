@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define LAYER_STATE_8BIT
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM 175
 
 #define OLED_FONT_H "./oled/oledfont.c"
 
