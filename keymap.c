@@ -29,9 +29,9 @@ enum {
   TD_V = 6,
   TD_B = 7,
   TD_U = 8,
-
   TD_I = 9,
   TD_H = 10,
+  TD_SFT_CAPS = 11
 };
 
 // Tap Dance Definitions
