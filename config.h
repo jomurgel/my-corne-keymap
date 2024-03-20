@@ -39,10 +39,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_MODS_ENABLE
 #define SPLIT_LED_STATE_ENABLE
 #define SPLIT_LAYER_STATE_ENABLE
-
 #define LAYER_STATE_8BIT
 
-#define TAPPING_TERM 185
+#define TAPPING_TERM 220
 
 #define OLED_FONT_H "./oled/oledfont.c"
 
